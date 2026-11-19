@@ -225,7 +225,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Vuelta a Colombia — Sistema de Gestión Logística UCI"))
         self.Boton_agregar.setText(_translate("MainWindow", "Agregar a la base de datos"))
         self.Nombre.setText(_translate("MainWindow", "Nombre:"))
         self.Apellido.setText(_translate("MainWindow", "Apellido:"))
@@ -234,7 +234,7 @@ class Ui_MainWindow(object):
         self.Fecha_nacimiento.setText(_translate("MainWindow", "Fecha de nacimiento:"))
         self.Pais_origen.setText(_translate("MainWindow", "Pais de origen:"))
         self.Numero_equipo.setText(_translate("MainWindow", "Numero de equipo:"))
-        self.Ranquim_UCI.setText(_translate("MainWindow", "Rankign UCI:"))
+        self.Ranquim_UCI.setText(_translate("MainWindow", "Ranking UCI:"))
         self.Front.setTabText(self.Front.indexOf(self.Agregar), _translate("MainWindow", "Agregar"))
         self.Tabla.setSortingEnabled(False)
         item = self.Tabla.horizontalHeaderItem(0)
